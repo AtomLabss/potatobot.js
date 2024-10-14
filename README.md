@@ -4,6 +4,9 @@
 top.gg: https://top.gg/bot/1226487228914602005 \
 Invite: https://discord.com/api/oauth2/authorize?client_id=1295370632321699973
 
+> [!WARNING]
+> **This project still contains remnants of Python code, as this project is uncomplete.**
+> **Continue at your risk.**
 
 ## Run Locally
 
@@ -22,7 +25,7 @@ Invite: https://discord.com/api/oauth2/authorize?client_id=1295370632321699973
 3. Install the required NPM dependencies:
 
 ```bash
-  pip install -r requirements.txt
+  npm install
 ```
 
 4. Rename `.env.example` to `.env`, and populate the required values.
