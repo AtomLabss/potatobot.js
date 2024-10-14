@@ -1,5 +1,5 @@
 # potatobot.js
-> The best AIO bot on Discord, made with the best DiscordAPI wrapper.
+> The best AIO bot on Discord, but made with the best DiscordAPI wrapper.
 
 top.gg: https://top.gg/bot/1226487228914602005 \
 Invite: https://discord.com/oauth2/authorize?client_id=1226487228914602005
