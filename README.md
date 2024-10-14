@@ -2,7 +2,7 @@
 > The best AIO bot on Discord, but now made with the best DiscordAPI wrapper.
 
 top.gg: https://top.gg/bot/1226487228914602005 \
-Invite: https://discord.com/oauth2/authorize?client_id=1226487228914602005
+Invite: https://discord.com/api/oauth2/authorize?client_id=1295370632321699973
 
 
 ## Run Locally
