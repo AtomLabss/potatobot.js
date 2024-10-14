@@ -1,5 +1,5 @@
 # potatobot.js
-> The best AIO bot on Discord, but made with the best DiscordAPI wrapper.
+> The best AIO bot on Discord, but now made with the best DiscordAPI wrapper.
 
 top.gg: https://top.gg/bot/1226487228914602005 \
 Invite: https://discord.com/oauth2/authorize?client_id=1226487228914602005
@@ -10,16 +10,16 @@ Invite: https://discord.com/oauth2/authorize?client_id=1226487228914602005
 1. Clone the project:
 
 ```bash
-  git clone https://github.com/Cyteon/potatobot
+  git clone https://github.com/AtomLabss/potatobot.js
 ```
 
 2. Go to the project directory:
 
 ```bash
-  cd potatobot
+  cd potatobot.js
 ```
 
-3. Install the required Python dependencies:
+3. Install the required NPM dependencies:
 
 ```bash
   pip install -r requirements.txt
@@ -31,7 +31,7 @@ Invite: https://discord.com/oauth2/authorize?client_id=1226487228914602005
 6. Run the bot:
 
 ```bash
-  python main.py
+  node main.js
 ```
 
 7. Profit.
