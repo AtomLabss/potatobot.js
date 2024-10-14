@@ -6,6 +6,5 @@
     },
     "scripts" : {
       "test" : "echo 'Success: Skipped runtime test'; true"
-    },
-    "type": "module"
-  }
+    }
+}

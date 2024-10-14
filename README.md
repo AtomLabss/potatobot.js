@@ -54,7 +54,8 @@
 6. Run the bot:
 
 ```bash
-  node main.js
+  chmod +x ./potato.sh
+  bash ./potato.sh
 ```
 
 7. Profit.

@@ -14,4 +14,4 @@ RUN npm install
 EXPOSE 443
 
 # Run main.js when the container launches
-CMD ["node", "main.js"]
+CMD ["bash", "potato.sh"]
