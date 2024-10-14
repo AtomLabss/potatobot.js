@@ -1,6 +1,6 @@
 // This project is licensed under the terms of the GPL v3.0 license. All credits, and copyright goes to Cyteon.
 
-const { Client, Intents, Collection, MessageEmbed, WebhookClient } = require('discord.js');
+const { Client, Intents, GatewayIntentBits, Collection, MessageEmbed, WebhookClient } = require('discord.js');
 const { MongoClient } = require('mongodb');
 const dotenv = require('dotenv');
 const fs = require('fs');
@@ -19,7 +19,11 @@ if (!fs.existsSync(path.join(__dirname, 'config.json'))) {
 const config = require(path.join(__dirname, 'config.json'));
 
 const client = new Client({
-    intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES, Intents.FLAGS.GUILD_MEMBERS]
+    intents: [
+        GatewayIntentBits.Guilds,
+        GatewayIntentBits.GuildMessages,
+        GatewayIntentBits.GuildMembers
+    ]
 });
 
 const mongoClient = new MongoClient(process.env.MONGODB_URL);
