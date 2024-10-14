@@ -1,3 +1,5 @@
+// This project is licensed under the terms of the GPL v3.0 license. All credits, and copyright goes to Cyteon.
+
 const { Client, Intents, MessageActionRow, Modal, TextInputComponent } = require('discord.js');
 const { isNotBlacklisted, commandNotDisabled } = require('./utils/Checks');
 const { CodeModal } = require('./ui/code');
