@@ -1,6 +1,6 @@
 // This project is licensed under the terms of the GPL v3.0 license. All credits, and copyright goes to Cyteon.
 
-const { Client, Intents, GatewayIntentBits, Collection, MessageEmbed, WebhookClient } = require('discord.js');
+const { Client, GatewayIntentBits, Collection, MessageEmbed, WebhookClient } = require('discord.js');
 const { MongoClient } = require('mongodb');
 const dotenv = require('dotenv');
 const fs = require('fs');
