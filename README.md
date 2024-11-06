@@ -22,6 +22,12 @@
     </a>
 </p>
 
+## Archival State
+
+> [!CAUTION]
+> potatobot.js is now archived due to Cyteon migrating PotatoBot to discord.js.
+> This project is now no longer needed.
+
 ## Notice
 
 > [!WARNING]
